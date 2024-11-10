@@ -1,0 +1,96 @@
+﻿@page
+@model FE.Pages.FootballPlayerPages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@if (HttpContext.Session.GetString("Role") == "1" || HttpContext.Session.GetString("Role") == "2")
+{
+    <p>
+        @if (HttpContext.Session.GetString("Role") == "1")
+        {
+            <a asp-page="Create">Create New</a>
+        }
+    </p>
+
+    @if (Model.Message != null)
+    {
+        <div class="alert alert-info" role="alert">
+            @Model.Message
+        </div>
+    }
+
+    <form method="get">
+        <div class="form-group">
+            <label for="SearchName">Search</label>
+            <input type="text" asp-for="SearchName" class="form-control" id="SearchName" />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FootballPlayers[0].FullName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FootballPlayers[0].Achievements)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FootballPlayers[0].Birthday)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FootballPlayers[0].PlayerExperiences)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FootballPlayers[0].Nomination)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FootballPlayers[0].FootballClub.ClubName)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.FootballPlayers)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Achievements)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Birthday)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PlayerExperiences)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nomination)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FootballClub.ClubName)
+                    </td>
+
+                    @if (HttpContext.Session.GetString("Role") == "1")
+                    {
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@item.FootballPlayerId">Edit</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.FootballPlayerId">Delete</a>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h1>You don't have permission</h1>
+}

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acer\\Desktop\\Prn231\\PE_PRN231_FA24_TrialTest_TranGiaHuy_BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39011989-BB93-4B63-8CBD-786C0BFD1624}|PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI.csproj|c:\\users\\acer\\desktop\\prn231\\pe_prn231_fa24_trialtest_trangiahuy_be\\pe_prn231_fa24_trialtest_trangiahuy_odataapi\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39011989-BB93-4B63-8CBD-786C0BFD1624}|PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI.csproj|solutionrelative:pe_prn231_fa24_trialtest_trangiahuy_odataapi\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39011989-BB93-4B63-8CBD-786C0BFD1624}|PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI.csproj|C:\\Users\\acer\\Desktop\\Prn231\\PE_PRN231_FA24_TrialTest_TranGiaHuy_BE\\pe_prn231_fa24_trialtest_trangiahuy_odataapi\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39011989-BB93-4B63-8CBD-786C0BFD1624}|PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI.csproj|solutionrelative:pe_prn231_fa24_trialtest_trangiahuy_odataapi\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\Prn231\\PE_PRN231_FA24_TrialTest_TranGiaHuy_BE\\PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\Prn231\\PE_PRN231_FA24_TrialTest_TranGiaHuy_BE\\PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\LoginResponseDTO.cs",
+              "RelativeToolTip": "PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\LoginResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T01:42:24.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\Prn231\\PE_PRN231_FA24_TrialTest_TranGiaHuy_BE\\PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\Prn231\\PE_PRN231_FA24_TrialTest_TranGiaHuy_BE\\PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\LoginRequestDTO.cs",
+              "RelativeToolTip": "PE_PRN231_FA24_TrialTest_TranGiaHuy_OdataAPI\\LoginRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T01:41:51.687Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
